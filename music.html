@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Gaming - Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div id="particles"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><span class="blue-text">MIDNIGHT</span> GAMING</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="music.html" class="active">Music</a></li>
+                    <li><a href="#" id="logoutBtn">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="music-header">
+            <h2>Music <span class="blue-text">Station</span></h2>
+            <div class="glow-line"></div>
+            <p>Search for your favorite music and enjoy while gaming. Results will open in YouTube.</p>
+        </section>
+        
+        <section class="music-search-section">
+            <div class="music-search-container">
+                <div class="search-box">
+                    <i class="fas fa-music music-icon"></i>
+                    <input type="text" id="musicSearchInput" placeholder="Search for songs, artists, or albums...">
+                    <button id="musicSearchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="music-suggestions">
+                    <h3>Popular <span class="blue-text">Genres</span></h3>
+                    <div class="glow-line-sm"></div>
+                    <div class="genre-tags">
+                        <span class="genre-tag" data-genre="gaming music">Gaming</span>
+                        <span class="genre-tag" data-genre="electronic music">Electronic</span>
+                        <span class="genre-tag" data-genre="lofi beats">Lo-Fi</span>
+                        <span class="genre-tag" data-genre="rock music">Rock</span>
+                        <span class="genre-tag" data-genre="hip hop music">Hip Hop</span>
+                        <span class="genre-tag" data-genre="pop music">Pop</span>
+                        <span class="genre-tag" data-genre="jazz music">Jazz</span>
+                        <span class="genre-tag" data-genre="classical music">Classical</span>
+                    </div>
+                </div>
+                
+                <div class="music-playlists">
+                    <h3>Recommended <span class="blue-text">Playlists</span></h3>
+                    <div class="glow-line-sm"></div>
+                    <div class="playlist-cards">
+                        <div class="playlist-card" data-playlist="gaming music mix 2023">
+                            <div class="playlist-img">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="playlist-info">
+                                <h4>Gaming Mix 2023</h4>
+                                <p>Epic gaming tracks to enhance your gameplay</p>
+                            </div>
+                        </div>
+                        
+                        <div class="playlist-card" data-playlist="concentration music for gaming">
+                            <div class="playlist-img">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="playlist-info">
+                                <h4>Concentration Mix</h4>
+                                <p>Focus-enhancing tracks for intense gaming sessions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="playlist-card" data-playlist="relaxing gaming music">
+                            <div class="playlist-img">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <div class="playlist-info">
+                                <h4>Chill Gaming</h4>
+                                <p>Relaxing beats for casual gaming experiences</p>
+                            </div>
+                        </div>
+                        
+                        <div class="playlist-card" data-playlist="epic orchestral gaming music">
+                            <div class="playlist-img">
+                                <i class="fas fa-orchestra-violin"></i>
+                            </div>
+                            <div class="playlist-info">
+                                <h4>Epic Orchestral</h4>
+                                <p>Dramatic orchestral scores from popular games</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="music-tips">
+                    <h3>Pro <span class="blue-text">Tips</span></h3>
+                    <div class="glow-line-sm"></div>
+                    <ul class="tips-list">
+                        <li><i class="fas fa-lightbulb"></i> Add "8D Audio" to your search for an immersive headphone experience</li>
+                        <li><i class="fas fa-lightbulb"></i> Search for "game soundtrack" followed by your favorite game title</li>
+                        <li><i class="fas fa-lightbulb"></i> Try "no copyright music" if you're streaming your gameplay</li>
+                        <li><i class="fas fa-lightbulb"></i> Search "ambient mix" for background music that won't distract you</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <div class="glow-line-sm"></div>
+                    <p>Midnight Gaming is your portal to the best browser games. Play instantly without downloads or installations.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="glow-line-sm"></div>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="music.html">Music</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 Midnight Gaming. All rights reserved. Made by Ali Zain Hasan</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="music.js"></script>
+</body>
+</html>

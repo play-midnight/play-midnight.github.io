@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Gaming - Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div id="particles"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><span class="blue-text">MIDNIGHT</span> GAMING</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="games.html" class="active">Games</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="#" id="logoutBtn">Logout</a></li>
+                </ul>
+            </nav>            
+        </header>
+        
+        <section class="games-header">
+            <h2>Game <span class="blue-text">Library</span></h2>
+            <div class="glow-line"></div>
+            <p>Select a game to play directly in your browser or open in a new tab for fullscreen experience.</p>
+        </section>
+        
+        <section class="games-grid">
+            <div class="games-container">
+                <!-- Game 1 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Eaglercraft</h4>
+                            <p>Play Minecraft in your browser without any downloads.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://ducky443747.github.io/minecraft-18/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://ducky443747.github.io/minecraft-18/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 2 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Bitbucket</h4>
+                            <p>Explore this browser-based gaming platform.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://the-pizza-edition.bitbucket.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://the-pizza-edition.bitbucket.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 3 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Top-Vaz</h4>
+                            <p>Play Top-Vaz Online games directly in your browser.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://top-vaz-online.github.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://top-vaz-online.github.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 4 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Arsenic</h4>
+                            <p>Experience this unique browser game.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://rizzler4.somoschiloe.com/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://rizzler4.somoschiloe.com/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 5 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Compass</h4>
+                            <p>Explore a collection of browser-based games.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://yurm.c.power-media.ro/games.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://yurm.c.power-media.ro/games.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 6 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Appleshreky</h4>
+                            <p>Check out this gaming collection.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://bio.link/appleshreky">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://bio.link/appleshreky"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 7 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Quadratics</h4>
+                            <p>Math-based games and tools.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://ezalgebra.github.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://ezalgebra.github.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 8 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Hub Pro</h4>
+                            <p>Access a hub of browser games.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://hub-pro.github.io/games.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://hub-pro.github.io/games.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 9 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>ClassX</h4>
+                            <p>Educational games and tools.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://class-20x.github.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://class-20x.github.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 10 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>QuizX</h4>
+                            <p>Test your knowledge with interactive quizzes.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://quiz-20x.com/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://quiz-20x.com/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 11 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Lich</h4>
+                            <p>Play Lich games in your browser.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://lichgames.s3.amazonaws.com/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://lichgames.s3.amazonaws.com/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 12 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>T-rex</h4>
+                            <p>Play the classic Chrome dinosaur game.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://www.tuckercraig.com/dino/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://www.tuckercraig.com/dino/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 13 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>UBG</h4>
+                            <p>Unblocked Games 98 collection.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://ubg-98.github.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://ubg-98.github.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 14 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>C2F</h4>
+                            <p>Cool2Fun browser games collection.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://cool2fun.github.io/">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://cool2fun.github.io/"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 15 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Roobix</h4>
+                            <p>3D puzzle game with colorful blocks.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/7oCCxwiJ/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/7oCCxwiJ/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 16 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Blackjack</h4>
+                            <p>Play the classic card game in your browser.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/dQVAStv9/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/dQVAStv9/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 17 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Into Deep Space</h4>
+                            <p>Space exploration adventure game.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VddIVc6L/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VddIVc6L/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 18 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Space Buggy</h4>
+                            <p>Drive a buggy through space terrain.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/ZmzHPMd2/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/ZmzHPMd2/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 19 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Marbleous</h4>
+                            <p>Guide a marble through challenging courses.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/HEoGi1Mb/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/HEoGi1Mb/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 20 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Swerve</h4>
+                            <p>Test your reflexes in this fast-paced game.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Game 21 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>Football</h4>
+                            <p>Play football in this browser-based sports game.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/XLyueLvM/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/XLyueLvM/index.html"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 22 -->
+                <div class="game-item">
+                    <div class="game-card">
+                        <div class="game-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="game-info">
+                            <h4>MSN</h4>
+                            <p>Play games in this browser-based game of websites.</p>
+                            <div class="game-buttons">
+                                <button class="play-btn" data-game="https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/XLyueLvM/index.html">Play Now</button>
+                                <button class="new-tab-btn" data-url="https://www.msn.com/en-us/play"><i class="fas fa-external-link-alt"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Game Modal -->
+        <div id="gameModal" class="game-modal">
+            <div class="game-modal-content">
+                <span class="close-game">&times;</span>
+                <h3 id="gameTitle">Game Title</h3>
+                <div class="glow-line-sm"></div>
+                <div class="game-frame-container">
+                    <iframe id="gameFrame" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+                
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="glow-line-sm"></div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="music.html">Music</a></li>
+                </ul>
+            </div>
+            
+                
+                <div class="footer-section">
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy;© 2025 Midnight Gaming. All rights reserved. Made by Ali Zain Hasan</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
